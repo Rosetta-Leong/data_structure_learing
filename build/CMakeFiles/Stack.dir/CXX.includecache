@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rosetta/data_structure/Stack.cpp
+stdio.h
+/home/rosetta/data_structure/stdio.h
+malloc.h
+/home/rosetta/data_structure/malloc.h
+

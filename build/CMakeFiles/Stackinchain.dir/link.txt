@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Stackinchain.dir/Stackinchain.cpp.o  -o Stackinchain 

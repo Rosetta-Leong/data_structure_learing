@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Quene.dir/Quene.cpp.o  -o Quene 

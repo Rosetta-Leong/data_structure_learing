@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "data_structure",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "List::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-List-Debug-581f84dcb9d30c101f23.json",
+					"name" : "List",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Listinchain::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Listinchain-Debug-513eb432ccc026c24b9f.json",
+					"name" : "Listinchain",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MaxSubseqSum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaxSubseqSum-Debug-dab478325ecf0611c39b.json",
+					"name" : "MaxSubseqSum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Polynomial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Polynomial-Debug-b98f4c139f9bd89be8cc.json",
+					"name" : "Polynomial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Quene::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Quene-Debug-178d6dc105f1df2ae8d6.json",
+					"name" : "Quene",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queneinchain::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queneinchain-Debug-51e92244943b4b280666.json",
+					"name" : "Queneinchain",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stack-Debug-00ea3909937544d0cde8.json",
+					"name" : "Stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stackinchain::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stackinchain-Debug-56aa20b25fd0863a922d.json",
+					"name" : "Stackinchain",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rosetta/data_structure/cmake-build-debug",
+		"source" : "/home/rosetta/data_structure"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
