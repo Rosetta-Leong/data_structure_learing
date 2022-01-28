@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Binarysearch.dir/DependInfo.cmake"
   "CMakeFiles/Polynomial.dir/DependInfo.cmake"
   "CMakeFiles/Stackinchain.dir/DependInfo.cmake"
   "CMakeFiles/Quene.dir/DependInfo.cmake"

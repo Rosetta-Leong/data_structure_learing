@@ -1,4 +1,5 @@
 /home/rosetta/data_structure/build/CMakeFiles/edit_cache.dir
+/home/rosetta/data_structure/build/CMakeFiles/Binarysearch.dir
 /home/rosetta/data_structure/build/CMakeFiles/Polynomial.dir
 /home/rosetta/data_structure/build/CMakeFiles/Stackinchain.dir
 /home/rosetta/data_structure/build/CMakeFiles/Quene.dir

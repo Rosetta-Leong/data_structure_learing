@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Binarysearch
+
+# Build rule for target.
+Binarysearch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Binarysearch
+.PHONY : Binarysearch
+
+# fast build rule for target.
+Binarysearch/fast:
+	$(MAKE) -f CMakeFiles/Binarysearch.dir/build.make CMakeFiles/Binarysearch.dir/build
+.PHONY : Binarysearch/fast
+
+#=============================================================================
 # Target rules for targets named Polynomial
 
 # Build rule for target.
@@ -213,6 +226,33 @@ MaxSubseqSum: cmake_check_build_system
 MaxSubseqSum/fast:
 	$(MAKE) -f CMakeFiles/MaxSubseqSum.dir/build.make CMakeFiles/MaxSubseqSum.dir/build
 .PHONY : MaxSubseqSum/fast
+
+Binarysearch.o: Binarysearch.cpp.o
+
+.PHONY : Binarysearch.o
+
+# target to build an object file
+Binarysearch.cpp.o:
+	$(MAKE) -f CMakeFiles/Binarysearch.dir/build.make CMakeFiles/Binarysearch.dir/Binarysearch.cpp.o
+.PHONY : Binarysearch.cpp.o
+
+Binarysearch.i: Binarysearch.cpp.i
+
+.PHONY : Binarysearch.i
+
+# target to preprocess a source file
+Binarysearch.cpp.i:
+	$(MAKE) -f CMakeFiles/Binarysearch.dir/build.make CMakeFiles/Binarysearch.dir/Binarysearch.cpp.i
+.PHONY : Binarysearch.cpp.i
+
+Binarysearch.s: Binarysearch.cpp.s
+
+.PHONY : Binarysearch.s
+
+# target to generate assembly for a file
+Binarysearch.cpp.s:
+	$(MAKE) -f CMakeFiles/Binarysearch.dir/build.make CMakeFiles/Binarysearch.dir/Binarysearch.cpp.s
+.PHONY : Binarysearch.cpp.s
 
 List.o: List.cpp.o
 
@@ -437,6 +477,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... Binarysearch"
 	@echo "... Polynomial"
 	@echo "... Stackinchain"
 	@echo "... Quene"
@@ -446,6 +487,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Queneinchain"
 	@echo "... MaxSubseqSum"
+	@echo "... Binarysearch.o"
+	@echo "... Binarysearch.i"
+	@echo "... Binarysearch.s"
 	@echo "... List.o"
 	@echo "... List.i"
 	@echo "... List.s"
