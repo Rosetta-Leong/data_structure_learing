@@ -1,3 +1,4 @@
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/rosetta/data_structure/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/rosetta/data_structure/cmake-build-debug/CMakeFiles/Stackinchain.dir
 /home/rosetta/data_structure/cmake-build-debug/CMakeFiles/MaxSubseqSum.dir
@@ -5,6 +6,19 @@
 /home/rosetta/data_structure/cmake-build-debug/CMakeFiles/Polynomial.dir
 /home/rosetta/data_structure/cmake-build-debug/CMakeFiles/Quene.dir
 /home/rosetta/data_structure/cmake-build-debug/CMakeFiles/List.dir
-/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/BinTree.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/Binarysearch.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/Set.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/FileTransfer.dir
 /home/rosetta/data_structure/cmake-build-debug/CMakeFiles/Queneinchain.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/HomoTree.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/IsSameBST.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/MaxHeap.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/BinarySearchTree.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/BalancedBinaryTree.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/ReverseLinkedList.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/MinHeap.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/HeapPath.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/BuildHeap.dir
 /home/rosetta/data_structure/cmake-build-debug/CMakeFiles/Stack.dir
+/home/rosetta/data_structure/cmake-build-debug/CMakeFiles/HuffmanTree.dir

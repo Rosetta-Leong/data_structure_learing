@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named HomoTree
+
+# Build rule for target.
+HomoTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HomoTree
+.PHONY : HomoTree
+
+# fast build rule for target.
+HomoTree/fast:
+	$(MAKE) -f CMakeFiles/HomoTree.dir/build.make CMakeFiles/HomoTree.dir/build
+.PHONY : HomoTree/fast
+
+#=============================================================================
+# Target rules for targets named BinTree
+
+# Build rule for target.
+BinTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BinTree
+.PHONY : BinTree
+
+# fast build rule for target.
+BinTree/fast:
+	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/build
+.PHONY : BinTree/fast
+
+#=============================================================================
 # Target rules for targets named Binarysearch
 
 # Build rule for target.
@@ -227,6 +253,33 @@ MaxSubseqSum/fast:
 	$(MAKE) -f CMakeFiles/MaxSubseqSum.dir/build.make CMakeFiles/MaxSubseqSum.dir/build
 .PHONY : MaxSubseqSum/fast
 
+BinTree.o: BinTree.cpp.o
+
+.PHONY : BinTree.o
+
+# target to build an object file
+BinTree.cpp.o:
+	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/BinTree.cpp.o
+.PHONY : BinTree.cpp.o
+
+BinTree.i: BinTree.cpp.i
+
+.PHONY : BinTree.i
+
+# target to preprocess a source file
+BinTree.cpp.i:
+	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/BinTree.cpp.i
+.PHONY : BinTree.cpp.i
+
+BinTree.s: BinTree.cpp.s
+
+.PHONY : BinTree.s
+
+# target to generate assembly for a file
+BinTree.cpp.s:
+	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/BinTree.cpp.s
+.PHONY : BinTree.cpp.s
+
 Binarysearch.o: Binarysearch.cpp.o
 
 .PHONY : Binarysearch.o
@@ -253,6 +306,33 @@ Binarysearch.s: Binarysearch.cpp.s
 Binarysearch.cpp.s:
 	$(MAKE) -f CMakeFiles/Binarysearch.dir/build.make CMakeFiles/Binarysearch.dir/Binarysearch.cpp.s
 .PHONY : Binarysearch.cpp.s
+
+HomoTree.o: HomoTree.cpp.o
+
+.PHONY : HomoTree.o
+
+# target to build an object file
+HomoTree.cpp.o:
+	$(MAKE) -f CMakeFiles/HomoTree.dir/build.make CMakeFiles/HomoTree.dir/HomoTree.cpp.o
+.PHONY : HomoTree.cpp.o
+
+HomoTree.i: HomoTree.cpp.i
+
+.PHONY : HomoTree.i
+
+# target to preprocess a source file
+HomoTree.cpp.i:
+	$(MAKE) -f CMakeFiles/HomoTree.dir/build.make CMakeFiles/HomoTree.dir/HomoTree.cpp.i
+.PHONY : HomoTree.cpp.i
+
+HomoTree.s: HomoTree.cpp.s
+
+.PHONY : HomoTree.s
+
+# target to generate assembly for a file
+HomoTree.cpp.s:
+	$(MAKE) -f CMakeFiles/HomoTree.dir/build.make CMakeFiles/HomoTree.dir/HomoTree.cpp.s
+.PHONY : HomoTree.cpp.s
 
 List.o: List.cpp.o
 
@@ -476,7 +556,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... HomoTree"
 	@echo "... edit_cache"
+	@echo "... BinTree"
 	@echo "... Binarysearch"
 	@echo "... Polynomial"
 	@echo "... Stackinchain"
@@ -487,9 +569,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Queneinchain"
 	@echo "... MaxSubseqSum"
+	@echo "... BinTree.o"
+	@echo "... BinTree.i"
+	@echo "... BinTree.s"
 	@echo "... Binarysearch.o"
 	@echo "... Binarysearch.i"
 	@echo "... Binarysearch.s"
+	@echo "... HomoTree.o"
+	@echo "... HomoTree.i"
+	@echo "... HomoTree.s"
 	@echo "... List.o"
 	@echo "... List.i"
 	@echo "... List.s"

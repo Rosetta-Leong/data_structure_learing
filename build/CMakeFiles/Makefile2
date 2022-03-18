@@ -53,6 +53,8 @@ CMAKE_BINARY_DIR = /home/rosetta/data_structure/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/HomoTree.dir/all
+all: CMakeFiles/BinTree.dir/all
 all: CMakeFiles/Binarysearch.dir/all
 all: CMakeFiles/Polynomial.dir/all
 all: CMakeFiles/Stackinchain.dir/all
@@ -71,6 +73,8 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/HomoTree.dir/clean
+clean: CMakeFiles/BinTree.dir/clean
 clean: CMakeFiles/Binarysearch.dir/clean
 clean: CMakeFiles/Polynomial.dir/clean
 clean: CMakeFiles/Stackinchain.dir/clean
@@ -84,13 +88,67 @@ clean: CMakeFiles/MaxSubseqSum.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/HomoTree.dir
+
+# All Build rule for target.
+CMakeFiles/HomoTree.dir/all:
+	$(MAKE) -f CMakeFiles/HomoTree.dir/build.make CMakeFiles/HomoTree.dir/depend
+	$(MAKE) -f CMakeFiles/HomoTree.dir/build.make CMakeFiles/HomoTree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=5,6 "Built target HomoTree"
+.PHONY : CMakeFiles/HomoTree.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/HomoTree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosetta/data_structure/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HomoTree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosetta/data_structure/build/CMakeFiles 0
+.PHONY : CMakeFiles/HomoTree.dir/rule
+
+# Convenience name for target.
+HomoTree: CMakeFiles/HomoTree.dir/rule
+
+.PHONY : HomoTree
+
+# clean rule for target.
+CMakeFiles/HomoTree.dir/clean:
+	$(MAKE) -f CMakeFiles/HomoTree.dir/build.make CMakeFiles/HomoTree.dir/clean
+.PHONY : CMakeFiles/HomoTree.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BinTree.dir
+
+# All Build rule for target.
+CMakeFiles/BinTree.dir/all:
+	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/depend
+	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=1,2 "Built target BinTree"
+.PHONY : CMakeFiles/BinTree.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BinTree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosetta/data_structure/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BinTree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosetta/data_structure/build/CMakeFiles 0
+.PHONY : CMakeFiles/BinTree.dir/rule
+
+# Convenience name for target.
+BinTree: CMakeFiles/BinTree.dir/rule
+
+.PHONY : BinTree
+
+# clean rule for target.
+CMakeFiles/BinTree.dir/clean:
+	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/clean
+.PHONY : CMakeFiles/BinTree.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Binarysearch.dir
 
 # All Build rule for target.
 CMakeFiles/Binarysearch.dir/all:
 	$(MAKE) -f CMakeFiles/Binarysearch.dir/build.make CMakeFiles/Binarysearch.dir/depend
 	$(MAKE) -f CMakeFiles/Binarysearch.dir/build.make CMakeFiles/Binarysearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=1,2 "Built target Binarysearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=3,4 "Built target Binarysearch"
 .PHONY : CMakeFiles/Binarysearch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -117,7 +175,7 @@ CMakeFiles/Binarysearch.dir/clean:
 CMakeFiles/Polynomial.dir/all:
 	$(MAKE) -f CMakeFiles/Polynomial.dir/build.make CMakeFiles/Polynomial.dir/depend
 	$(MAKE) -f CMakeFiles/Polynomial.dir/build.make CMakeFiles/Polynomial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=9,10 "Built target Polynomial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=13,14 "Built target Polynomial"
 .PHONY : CMakeFiles/Polynomial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -144,7 +202,7 @@ CMakeFiles/Polynomial.dir/clean:
 CMakeFiles/Stackinchain.dir/all:
 	$(MAKE) -f CMakeFiles/Stackinchain.dir/build.make CMakeFiles/Stackinchain.dir/depend
 	$(MAKE) -f CMakeFiles/Stackinchain.dir/build.make CMakeFiles/Stackinchain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=17,18 "Built target Stackinchain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=21,22 "Built target Stackinchain"
 .PHONY : CMakeFiles/Stackinchain.dir/all
 
 # Build rule for subdir invocation for target.
@@ -171,7 +229,7 @@ CMakeFiles/Stackinchain.dir/clean:
 CMakeFiles/Quene.dir/all:
 	$(MAKE) -f CMakeFiles/Quene.dir/build.make CMakeFiles/Quene.dir/depend
 	$(MAKE) -f CMakeFiles/Quene.dir/build.make CMakeFiles/Quene.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=11,12 "Built target Quene"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=15,16 "Built target Quene"
 .PHONY : CMakeFiles/Quene.dir/all
 
 # Build rule for subdir invocation for target.
@@ -198,7 +256,7 @@ CMakeFiles/Quene.dir/clean:
 CMakeFiles/Stack.dir/all:
 	$(MAKE) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/depend
 	$(MAKE) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=15,16 "Built target Stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=19,20 "Built target Stack"
 .PHONY : CMakeFiles/Stack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -225,7 +283,7 @@ CMakeFiles/Stack.dir/clean:
 CMakeFiles/Listinchain.dir/all:
 	$(MAKE) -f CMakeFiles/Listinchain.dir/build.make CMakeFiles/Listinchain.dir/depend
 	$(MAKE) -f CMakeFiles/Listinchain.dir/build.make CMakeFiles/Listinchain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=5,6 "Built target Listinchain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=9,10 "Built target Listinchain"
 .PHONY : CMakeFiles/Listinchain.dir/all
 
 # Build rule for subdir invocation for target.
@@ -252,7 +310,7 @@ CMakeFiles/Listinchain.dir/clean:
 CMakeFiles/List.dir/all:
 	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/depend
 	$(MAKE) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=3,4 "Built target List"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=7,8 "Built target List"
 .PHONY : CMakeFiles/List.dir/all
 
 # Build rule for subdir invocation for target.
@@ -279,7 +337,7 @@ CMakeFiles/List.dir/clean:
 CMakeFiles/Queneinchain.dir/all:
 	$(MAKE) -f CMakeFiles/Queneinchain.dir/build.make CMakeFiles/Queneinchain.dir/depend
 	$(MAKE) -f CMakeFiles/Queneinchain.dir/build.make CMakeFiles/Queneinchain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=13,14 "Built target Queneinchain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=17,18 "Built target Queneinchain"
 .PHONY : CMakeFiles/Queneinchain.dir/all
 
 # Build rule for subdir invocation for target.
@@ -306,7 +364,7 @@ CMakeFiles/Queneinchain.dir/clean:
 CMakeFiles/MaxSubseqSum.dir/all:
 	$(MAKE) -f CMakeFiles/MaxSubseqSum.dir/build.make CMakeFiles/MaxSubseqSum.dir/depend
 	$(MAKE) -f CMakeFiles/MaxSubseqSum.dir/build.make CMakeFiles/MaxSubseqSum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=7,8 "Built target MaxSubseqSum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rosetta/data_structure/build/CMakeFiles --progress-num=11,12 "Built target MaxSubseqSum"
 .PHONY : CMakeFiles/MaxSubseqSum.dir/all
 
 # Build rule for subdir invocation for target.
